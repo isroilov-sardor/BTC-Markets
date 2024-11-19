@@ -1,0 +1,153 @@
+.head-top {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+.head-top-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.head-first {
+    transition: 0.7s all;
+}
+
+.head-first:hover {
+    filter: drop-shadow(2px 2px 2px aqua);
+}
+
+.head-title-same {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.head-title-same img {
+    width: 12px;
+    height: 8px;
+    user-select: none;
+}
+
+.head-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #18181B;
+    text-decoration: none;
+    user-select: none;
+}
+
+.head-top-btn1 {
+    padding: 9px 17px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.10000000149011612px;
+    color: #18181B;
+    border: 1px solid #18181B;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.head-top-btn2 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.10000000149011612px;
+    color: #01271C;
+    background-color: #4CFDC7;
+    border-radius: 4px;
+    border: 1px solid #4CFDC7;
+    padding: 9px 17px;
+    cursor: pointer;
+}
+
+.head-bottom {
+    display: flex;
+    align-items: center;
+    gap: 132px;
+}
+
+.head-left-title {
+    margin-bottom: 34px;
+    font-size: 71px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.head-left-desc {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.10000000149011612px;
+    color: #27272A;
+    margin-bottom: 30px;
+}
+
+.head-left-same {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 19px;
+}
+
+.head-leftbtn1 {
+    padding: 9px 33px;
+    color: #01271C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    border: 1px solid #4CFDC7;
+    background-color: #4CFDC7;
+    border-radius: 4px;
+    transition: 0.7s all;
+}
+
+.head-leftbtn1:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.head-leftbtn2 {
+    padding: 9px 33px;
+    color: #18181B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    border: 1px solid #18181B;
+    background-color: transparent;
+    border-radius: 4px;
+    transition: 0.7s all;
+}
+
+.head-leftbtn2:hover {
+    border: 1px solid #4CFDC7;
+    background-color: #4CFDC7;
+    border-radius: 4px;
+}
+
+.head-left-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.head-info-same {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.head-left-info img{
+    cursor: pointer;
+}
