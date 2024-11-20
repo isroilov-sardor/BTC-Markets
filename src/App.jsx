@@ -3,6 +3,7 @@ import Header from './components/Header';
 import List from './components/List';
 import Pluses from './components/Pluses';
 import Trade from './components/Trade';
+import Wallet from './components/Wallet';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <List></List>
         <Pluses></Pluses>
         <Trade></Trade>
+        <Wallet></Wallet>
       </div>
     </div>
   )
