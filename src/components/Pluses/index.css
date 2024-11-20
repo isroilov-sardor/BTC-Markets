@@ -1,6 +1,7 @@
-.plus-container{
+.plus-container {
     margin-bottom: 174px;
 }
+
 .plus-desc {
     font-size: 46px;
     font-weight: 400;
@@ -10,24 +11,29 @@
     margin-bottom: 134px;
     text-align: center;
 }
-.plus-same{
+
+.plus-same {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.first-plus{
+
+.first-plus {
     max-width: 260px;
     width: 100%;
     text-align: center;
 }
-.first-plus img{
+
+.first-plus img {
     margin-bottom: 32px;
     transition: 0.7s all;
     cursor: pointer;
 }
-.first-plus img:hover{
+
+.first-plus img:hover {
     filter: drop-shadow(2px 2px 2px aqua);
 }
-.first-plus-title{
+
+.first-plus-title {
     margin-bottom: 18px;
 }

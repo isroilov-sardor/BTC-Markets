@@ -1,9 +1,11 @@
+import React , {useState} from 'react';
 import './index.css';
 import image1 from '../../images/block.svg';
 import image2 from '../../images/energy.svg';
 import image3 from '../../images/chat.svg'
 
 function Pluses() {
+    
     return (
         <div className="pluses">
             <div className="container plus-container">
@@ -24,7 +26,7 @@ function Pluses() {
                         <div className="first-plus-title">Support</div>
                         <div className="first-plus-title">Fast trade executions with an industry leading uptime of 99.99%.</div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
