@@ -54,6 +54,12 @@
     background-color: white;
     border-radius: 4px;
     cursor: pointer;
+    transition: 0.7s all;
+}
+
+.head-top-btn1:hover {
+    border-color: #4CFDC7;
+    background-color: #4CFDC7;
 }
 
 .head-top-btn2 {
@@ -67,6 +73,12 @@
     border: 1px solid #4CFDC7;
     padding: 9px 17px;
     cursor: pointer;
+    transition: 0.7s all;
+}
+
+.head-top-btn2:hover {
+    background-color: white;
+    border-color: #18181B;
 }
 
 .head-bottom {
@@ -116,6 +128,7 @@
 .head-leftbtn1:hover {
     background-color: transparent;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .head-leftbtn2 {
@@ -135,6 +148,7 @@
     border: 1px solid #4CFDC7;
     background-color: #4CFDC7;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .head-left-info {
@@ -148,6 +162,7 @@
     align-items: center;
     gap: 5px;
 }
-.head-left-info img{
+
+.head-left-info img {
     cursor: pointer;
 }
